@@ -90,6 +90,10 @@ while True:
         speak("I don't have access to weather data right now, but I hope it's nice outside!")   
     elif "who are you" in command:
         speak("I am trivya, your voice assistant. I can tell you the time, date, and even a joke!")
+    elif "python tutorial" in command:
+        speak("opening python tutorial")
+        query = command.replace(" ", "+")
+        webbrowser.open("https://www.google.com/search?q=" + query)
     elif "youtube" in command:
         speak("opening Youtube")
         webbrowser.open("https://www.youtube.com")
