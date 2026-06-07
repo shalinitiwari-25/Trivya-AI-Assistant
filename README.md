@@ -58,7 +58,6 @@ VoiceAssistant/
 ├── README.md
 ├── .gitignore
 ├── assets/
-└── .env (not included in repository)
 
 ## Installation
 
